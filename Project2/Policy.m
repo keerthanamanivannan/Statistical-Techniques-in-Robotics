@@ -22,5 +22,4 @@ classdef (Abstract) Policy < handle
         getReward(self, reward); 
         % Receive a reward for the chosen action and update internal model.
     end
-    
 end

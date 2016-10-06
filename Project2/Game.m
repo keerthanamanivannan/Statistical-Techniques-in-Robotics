@@ -12,7 +12,6 @@ classdef (Abstract) Game < handle
     %   Since this Game class is abstract, it is cannot directly be used. A
     %   concrete class that inherits from this Game class and defines
     %   values for the member variables can be used.
-
     
     % Member variables of the class
     properties
@@ -24,8 +23,7 @@ classdef (Abstract) Game < handle
     
     % Member functions of this class
     methods      
- 
-        function [reward, action, regret] = play(self, policy)
+         function [reward, action, regret] = play(self, policy)
             %   The function simulates the entire game where at each time
             %   step it class the policy to get an action, evaluates reward
             %   for that action and also evaluates regret for the policy
@@ -70,6 +68,5 @@ classdef (Abstract) Game < handle
             %   hindsight
             r = max(sum(self.tabR(:,1:self.N),2));
         end
-        
-    end    
+    end
 end

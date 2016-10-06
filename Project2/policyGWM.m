@@ -11,7 +11,6 @@ classdef policyGWM < Policy
     end
     
     methods
-        
         function init(self, nbActions)
             % Initialize any member variables
             self.nbActions = nbActions;

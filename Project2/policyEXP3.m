@@ -11,7 +11,6 @@ classdef policyEXP3 < Policy
     end
     
     methods
-
         function init(self, nbActions)
             % Initialize member variables
             self.nbActions = nbActions;

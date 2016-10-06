@@ -6,7 +6,6 @@ classdef policyRandom < Policy
     end
     
     methods
-
         function init(self, nbActions)
             % store the number of actions
             self.nbActions = nbActions;

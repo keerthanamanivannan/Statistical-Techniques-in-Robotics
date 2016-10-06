@@ -51,5 +51,4 @@ classdef policyUCB < Policy
             self.C(self.lastAction) = self.C(self.lastAction) + 1;
         end        
     end
-
 end

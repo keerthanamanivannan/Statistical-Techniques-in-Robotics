@@ -7,7 +7,6 @@ classdef policyConstant < Policy
     end
     
     methods
-
         function init(self, nbActions)
             % randomly choose an action in the begin
             self.chosenAction = randi(nbActions);

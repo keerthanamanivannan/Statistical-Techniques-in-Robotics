@@ -14,7 +14,6 @@ classdef gameLookupTable < Game
                 self.tabR = tabInput;
             end
         end
-        
     end
     
 end

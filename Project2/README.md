@@ -1,2 +1,1 @@
-In this assignment, algorithms for Bandit Problems were implemented. Bandit Problems are essentially the sequential allocation problem
-defined by a set of actions. GWM, EXP3 and UCB algorithms were implemented. 
+In this assignment, algorithms for Bandit Problems like GWM, EXP3 and UCB were implemented. Bandit Problems are essentially the sequential allocation problem defined by a set of actions where each action provides a random reward from a probability distribution specific to that action. Three types of Bandits were devised: a game with constant reward, game with Gaussian reward and a game with Adversarial rewards. 
